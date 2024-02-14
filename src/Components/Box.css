@@ -1,0 +1,46 @@
+.Box-parent{
+    border: 1px solid black;
+    width: 40vw;
+    background-color: rgb(58, 57, 57);
+    margin: 5% 30%;   
+    padding: 2%;
+}
+
+.child-box{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+
+.Child-Boxes{
+    border: 1px solid white;
+    width: 10vw;
+    height: 10vh;
+    margin: 1%;
+}
+
+.parentBox-Btn {
+    border: none;
+    background-color: rgb(32, 91, 129);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    width: 8vw;
+    height: 4vh ;
+    font-size: medium;
+}
+
+.childBox-Btn{
+    border: none;
+    background-color: rgb(26, 78, 156);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    width: 7vw;
+    height: 5vh;
+    font-size: small;
+    margin: 10% 6%;
+
+}
